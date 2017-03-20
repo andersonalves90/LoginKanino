@@ -25,7 +25,7 @@ public class main {
 			String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 			String url = "jdbc:sqlserver://prof-ramon.database.windows.net:1433;database=Kanino";
 			String user = "TSI";
-			String pass = "SistemasInternet123";
+			String pass = "SistemasInternet";
 			 
 			//Class.forName(driver);
 			
