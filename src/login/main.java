@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 
 public class main {
-	public static void main(String[] args)
+	public static void main(String[] args) throws ClassNotFoundException
 	{
 		
 		try {
@@ -59,8 +59,6 @@ public class main {
 			console.close();
 			
 			
-		} catch (ClassNotFoundException e) {
-			System.out.println("Driver não encontrado! "+e);
 		} catch (SQLException e) {
 			System.out.println("Erro de conexão! "+e);
 		}
