@@ -29,7 +29,9 @@ public class main {
 			 
 			//Class.forName(driver);
 			
-
+			System.out.println("");
+			System.out.println("Consultando...");
+			System.out.println("");
 			
 			Connection conn = DriverManager.getConnection(url, user, pass);
 			String sql = "select * from Usuario where loginUsuario = ? and senhaUsuario = ? and usuarioAtivo = ?";
